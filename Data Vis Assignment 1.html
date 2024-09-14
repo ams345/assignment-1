@@ -22,7 +22,7 @@
 
 			<h3>Overall Analysis Questions</h3>
 			<ol>
-				<li>What are the trends in fatal overdoses over time?</li>?
+				<li>What are the trends in fatal overdoses over time?</li>
 				<li>What substances are most commonly associated with fatal overdoses?</li>
 				<li>Does a gender difference persist in the dataset for fatal overdoses?</li>
 			</ol>
@@ -32,72 +32,73 @@
 			<h2>Discoveries & Insights</h2>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="./visualizations/Total Overdoses by Year.png" alt="" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					To gain an understanding of how overdose fatalities have evolved annually, I visualized the number of overdoses each year in a time series chart. This provides a time-related perspective on the increase in drug-related overdoses in Allegheny County. The chart shows a steady rise in overdose deaths over time, with an especially sharp rise in the most recent years. This increase coincides with the growing use of synthetic opioids, such as fentanyl, which has been a driver of fatal overdoses since the 2010s. As the dataset moves from the early 2000s to the 2010s, we see a concerning escalation, a steep decline between 2017 and 2018, and then a steady climb until 2024. 
+
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="./visualizations/Highest Overdose Years.png" alt="" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					To get a better concept of which years had the most prevalent drug use, the data was organized with the years with the highest overdose to the left in descending order, as a bar chart. The graph presents 2017, 2016, 2022, 2021, and 2023 as the highest years of drug overdoses in Allegheny County. 2024, however, has the least amount of drug overdoses. Since we are currently in 2024, the lack of data in 2024 can likely be attributed to incomplete data collection. However, monthly overdose totals must be considered to discern this. 
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="./visualizations/Overdoses by Month.png" alt="" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					This line chart portrays the monthly overdose count since 2007 data. It demonstrates that March and April maintain the highest amount of drug related fatal accidental overdoses, with other increases in August / September and December. The chart demonstrates that we do have data for all months, so 2024 must only have recorded data for the months elapsed thus far, contributing to the lower total in the prior visualizations. This graph draws attention to potential seasonal factors that could influence overdose rates, such as environmental or social triggers during certain times of the year. This is explored further in the following visualization. 
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="./visualizations/Monthly Overdoses per Year - with Scale.png" alt="" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					This Gantt chart portrays that 2024 data was collected only until July, confirming the prior hypothesis. It also shows that fatal overdose data was collected monthly for each year since 2007. The volume of overdoses is particularly highlighted in this chart with the scale of each of the circles representing the total overdose count each month. The end of 2016 and the beginning and middle of 2017 demonstrate the highest volume of overdoses over the months and years analyzed, which is supported by the second visualization shown earlier. Seasonality is not clearly pertinent as per this chart, as no specific months seem to have a consistently bigger scale across the years.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="./visualizations/Map (2) (1).png" alt="" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					Analysis over time led to an additional curiosity of how total overdoses are spread over Allegheny County. After addressing zipcodes outside of the state of Pennsylvania within the dataset, this map was developed of zipcodes within Pennsylvania in Allegheny County, with the darkest blue representing the most dense areas where total overdoses are higher. As per this map, zipcode area of 15210 has the highest number of fatal overdoses recorded, and the number of overdoses becomes less concentrated as you deviate farther from the zipcode.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="./visualizations/Summary of Drugs Involved in Overdose.png" alt="" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					This bar graph breaks down the substances involved in fatal overdoses, with opioids commanding the chart. Fentanyl and other synthetic opioids account for the largest portion, followed by heroin and prescription opioids. The top 5 drugs involved in opiods are fentanyl, cocaine, heroin, alcohol, and alprazolam. For this graph, the data in the combined od columns were pivoted so each time a drug was involved in a fatal overdose, it was counted separately. 
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="./visualizations/Total Overdose by Gender.png" alt="" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					This graph compares the number of overdose deaths between males and females. It shows a significant gender disparity, with males experiencing over 2x higher overdose deaths than females. This visualization brings up the question of whether this disparity between male and female drug-related deaths is true for each drug type. 
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="./visualizations/Drugs by Gender.png" alt="" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					Upon further analysis, it seems that primarily for the drugs upon which data was collected, males have the majority of fatal overdoses. The relation that was found in the prior visualization seems to hold consistent across each drug type. Does other demographic data like age and race have sharp disparities when related to fatal overdoses?
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="./visualizations/Top 5 Drugs by Age.png" alt="" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					To continue analyzing demographic variation for overdose fatalities, the age range for the top 5 drugs was portrayed. Here it is depicted that individuals primarily aged 15 to 70 are recorded within the dataset. There are some outliers, with very young individuals/babies and some older individuals affected by drug overdose.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="./visualizations/Drug Count by Race.png" alt="" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					The final graph is a bubble chart showing the racial segmentation of overdose deaths. It reveals that overdose deaths disproportionately affect certain racial groups. The chart emphasizes how substance abuse and overdose risk are not evenly distributed across races, with some groups facing higher risks. 
 				</figcaption>
 			</figure>
 		</section>
@@ -105,7 +106,7 @@
 		<section>
 			<h2>Summary</h2>
 
-			<p>WRITE FINAL SUMMARY HERE.</p>
+			<p>The set of visualizations provides an overview of overdose deaths over time, revealing the increasing severity of the drug crisis in recent years. The gender disparity in overdose deaths is made apparent with the visualizations, with males adversely and disproportionately affected compared to females. Opioids, especially fentanyl, have become the main substances involved in overdose fatalities, superseding heroin and other prescription opioids. Furthermore, demographic patterns suggest potential environmental or social factors influencing overdose rates, such as age, while the racial breakdown of overdose deaths indicates disparities in how different racial groups are impacted by substance abuse. To be useful in further understanding the drug epidemic and developing responsive measures, more data needs to be collected and analysis needs to be completed.</p>
 		</section>
 	</main>
 </body>
